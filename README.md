@@ -6,6 +6,13 @@ Python script to dump github issues from a repo to an org-mode file.
 ## Installation
 
 - clone repo
+- create a file in the repo directory called `config.json`, containing
+```
+{
+	"me": "<github username>"
+}
+```
+- Opitonally edit your emacs config to add stylize `org-todo-keywords`: "OPEN", "OPEN-ME", "CLOSED" 
 - set bash alias (suggested: org-issues) pointing to main.py
 
 
